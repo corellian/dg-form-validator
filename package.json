@@ -1,0 +1,49 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "description": "Yet another form validator for React components",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corellian/form-validator.git"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "validator"
+  ],
+  "author": "Cristian Peraferrer <corellian.c@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corellian/form-validator/issues"
+  },
+  "homepage": "https://github.com/corellian/form-validator#readme",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "immutability-helper": "^2.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/preset-env":"^7.1.0",
+    "@babel/register": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": ["last 2 versions", "ie >= 7"]
+          }
+        }
+      ]
+    ]
+  }
+}
