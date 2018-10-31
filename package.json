@@ -1,5 +1,5 @@
 {
-  "name": "form-validator",
+  "name": "dg-form-validator",
   "version": "1.0.0",
   "description": "Yet another form validator for React components",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corellian/form-validator.git"
+    "url": "https://github.com/corellian/dg-form-validator.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Cristian Peraferrer <corellian.c@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/corellian/form-validator/issues"
+    "url": "https://github.com/corellian/dg-form-validator/issues"
   },
-  "homepage": "https://github.com/corellian/form-validator#readme",
+  "homepage": "https://github.com/corellian/dg-form-validator#readme",
   "dependencies": {
     "moment": "^2.22.2",
     "immutability-helper": "^2.8.1"
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/cli": "^7.1.2",
-    "@babel/preset-env":"^7.1.0",
+    "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0"
   },
   "babel": {
@@ -40,7 +40,10 @@
         "@babel/preset-env",
         {
           "targets": {
-            "browsers": ["last 2 versions", "ie >= 7"]
+            "browsers": [
+              "last 2 versions",
+              "ie >= 7"
+            ]
           }
         }
       ]
