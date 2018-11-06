@@ -49,7 +49,7 @@ export default class FormValidator {
                             }
                             break;
                         case 'nonZero':
-                            if (parseFloat(value) == 0) {
+                            if (parseFloat(value) === 0) {
                                 result = { type: 'error' };
                             }
                             break;
