@@ -35,35 +35,5 @@
     "@babel/register": "^7.0.0",
     "eslint": "^5.8.0",
     "eslint-config-es6": "^1.10.3"
-  },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": [
-              "last 2 versions",
-              "ie >= 7"
-            ]
-          }
-        }
-      ]
-    ]
-  },
-  "eslintConfig": {
-    "ecmaFeatures": {
-      "modules": true,
-      "spread": true,
-      "restParams": true
-    },
-    "env": {
-      "browser": true,
-      "es6": true,
-      "jest": true
-    },
-    "parserOptions": {
-      "sourceType": "module"
-    }
   }
 }
